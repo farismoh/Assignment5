@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Assignment 5</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet/Assignment5.css"/>
+    <script type="text/javascript" src="javascript/Assignment5.js"></script>
+</head>
+<body>
+<center>
+   <h1>Assignment 5 by Faris Mohiuddin</h1>
+   
+   
+   
+    <select onchange="Hidden()"id="menu">
+        <option>Choose a section</option>
+        <option>Section 1</option>
+        <option>Section 2</option>
+        <option>Section 3</option>
+    </select>
+    
+    <section  id="sec1" class="sec1">
+        <body onload="Render()">
+        <div id="table1">Customer Data goes here</div></body>
+    </section>
+    
+    <section id="sec2" class="sec2">
+        <hr><label>Enter Customer ID:</label>
+        <input type="text" id="exc">
+            <br>
+                <button onclick="Section2()" id="sec2button">Show Orders</button>
+                <div id="table">(Table goes here)</div>
+    </section>
+    
+    <section id="sec3" class="sec3">
+        <hr><label>Enter Customer ID:</label>
+        <input type="text" id="exc3">
+            <br>
+                <button onclick="Section3()" id="sec3button">Show Orders</button>
+                <div id="table3">(Table goes here)</div>
+    </section>
+   
+  
+    
+   
+    
+   
+        
+      
+   
+   
+   
+</center>
+</body>
+</html>

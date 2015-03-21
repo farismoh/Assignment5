@@ -1,0 +1,22 @@
+section.sec1
+{
+    display: inline;
+    display: none;
+}
+
+section.sec2
+{
+    display: inline;
+    display: none;
+}
+
+section.sec3
+{
+    display: inline;
+    display: none;
+}
+
+body
+{
+    background-color: grey;
+}
